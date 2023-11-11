@@ -1,0 +1,1 @@
+This project is about the basics of HTML and CSS; which include creating a simple webpage.

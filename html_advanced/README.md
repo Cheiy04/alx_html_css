@@ -1,0 +1,2 @@
+This Website will be a fully structured homepage, with the essential html tags put into use. 
+This project is essential in learning the basic concepts of html and their implementions to create a fully functional website.

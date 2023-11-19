@@ -197,14 +197,14 @@
   .col-1-2 {
     width: calc((100% / 2) - 2rem);
   }
+
   
   /* Navbar
       ============================= */
   
-  
-  nav  {
+  .nav  {
     display: flex;
-    margin: var(--nav-item-margin)
+
   }
 
   .nav .nav-item + .nav-item {

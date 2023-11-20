@@ -67,7 +67,7 @@ ul {
   
   /* Change the link color on hover */
   li a:hover {
-    background-color: #555;
+    background-color: #FF4742;
     color: white;
   }
   /*====================================Styling bottom of header======================*/
@@ -127,3 +127,44 @@ ul {
     
 }
 
+/*--------------------------------------What we do-----------------------------*/ 
+
+/*=================styling section body===============*/
+.section-body{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    height: fit-content;
+}
+.selection-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.section-1-header {
+    display: flex;
+    justify-content: center;
+    
+}
+.section-1-text {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100vh;
+    text-align: center;
+    margin: auto
+}
+/*==========continer with 4 block items======*/
+.image-reviews {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-top: 20vh;
+    margin-bottom: 10vh;
+}
+
+.image-reviews img {
+    width: 10vh;
+    height: 10vh;
+    
+}

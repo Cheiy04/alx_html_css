@@ -11,8 +11,8 @@
     /*0----html and body*/
 
     html body {
-        height: fit-content;
-        width: fit-content;
+        height: auto;
+        width: auto;
         scroll-behavior: smooth;
         font-family: ‘Aclonica’;
         font-size: 22px;
@@ -135,46 +135,105 @@
         color: white;
         
     }
-
-/*--------------------------------------What we do-----------------------------*/ 
-
-/*=================styling section body===============*/
-.section-body{
-    margin-top: 30px;
-    margin-bottom: 20px;
-    height: fit-content;
+    
+    /*--------------------------------------What we do-----------------------------*/ 
+    
+    /*=================styling section body===============*/
+    .section-1-body{
+        margin-top: 30px;
+        margin-bottom: 20px;
+        height: fit-content;
+    }
+    .selection-1-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .section-1-header {
+        display: flex;
+        justify-content: center;
+        
+    }
+    .section-1-text {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100vh;
+        text-align: center;
+        margin: auto
+    }
+    /*==========continer with 4 block items======*/
+    .image-reviews {
+        display: flex;
+        justify-content: space-evenly;
+        text-align: center;
+        margin-top: 20vh;
+        margin-bottom: 10vh;
+    }
+    
+    .image-reviews img {
+        width: 10vh;
+        height: 10vh;
+        
+    }
+    
+/*-------------------------------------------Our results-------------------------------------*/
+/*================section body===============*/
+.section-2-body {
+    
+    background-image: url(images/headphones_hero_2.jpg);
+    height: 100%;
 }
-.selection-container {
+/*===============sction content=======*/
+.section-2-content {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    
+    justify-content: center;
 }
-.section-1-header {
+/*=====section header====*/
+.section-2-header {
     display: flex;
     justify-content: center;
-    
-}
-.section-1-text {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    width: 100vh;
-    text-align: center;
-    margin: auto
-}
-/*==========continer with 4 block items======*/
-.image-reviews {
-    display: flex;
-    justify-content: space-evenly;
-    text-align: center;
-    margin-top: 20vh;
-    margin-bottom: 10vh;
-    
+    color: white;
 }
 
-.image-reviews img {
-    width: 10vh;
-    height: 10vh;
+.section-2-text {
+    display: flex;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    width: 100vh;
+    margin: auto;
+    margin-bottom: 20vh;
+}
+
+.results {
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    margin-bottom: 7vh;
+}
+.results div {
+
+    position: relative;
+    
+}
+.results img {
+    width: 30vh;
+    height: 30vh;
+    
+}
+.inside-text {
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 30%;
+    bottom: 10%;
+    right: 90%;
+    left: 40%;
+    font-size: medium;
+    color: white;
+    
     
 }

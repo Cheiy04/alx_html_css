@@ -1,0 +1,129 @@
+/* Layout Guide*/
+
+    /*0---- html and body-----*/
+    /*1-----Header-----*/
+    /*2----Navbar----*/
+    /*3----Main----*/
+    /*4----Section----*/
+    /*5----footer-----*/
+
+
+    /*0----html and body*/
+
+.html .body {
+    height: fit-content;
+    width: fit-content;
+    scroll-behavior: smooth;
+    font-family: ‘Aclonica’;
+    font-size: 22px;
+    
+}
+
+    /*1---------------------------------Header-------------------------------------*/
+
+  
+/* ============================Styling header top==========================*/
+.header-background {
+    background-image: url(images/headphones_hero_1.jpg);
+    height: 100vh;
+    width: fit-content;
+    background-size: 100%;
+    
+}
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+.logo {
+    margin: 10px 0 0 40px;
+    
+}
+
+    /* ==========================Styling the navbar=============================*/
+.nav  {
+    margin: 10px 60px 0 0;
+    padding: 25px;
+    width: 70vh;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    
+  }
+  
+  li a {
+    display: flex;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color on hover */
+  li a:hover {
+    background-color: #555;
+    color: white;
+  }
+  /*====================================Styling bottom of header======================*/
+.header-bottom {
+    margin: 100px 100px 10px 100px;
+    text-align: center;
+    height: 30vh;
+}
+.text-1 {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding: 0 25px 25px 25px;
+    margin : 0px 10px;
+    justify-content: space-around
+ 
+}
+/*===========================================Styling button=============================*/
+.button{
+
+  background: #FF4742;
+  border: 1px solid #FF4742;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 16px;
+  min-height: 40px;
+  outline: 0;
+  padding: 12px 14px;
+  text-align: center;
+  text-rendering: geometricprecision;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+}
+
+.button:hover,
+.button:active {
+  background-color: initial;
+  background-position: 0 0;
+  color: #FF4742;
+}
+.text-2 {
+    display: flex;
+    flex-wrap:  wrap;
+    margin: 50px 0 20px 0 ;
+    color: white;
+    justify-content: center;
+    
+}
+

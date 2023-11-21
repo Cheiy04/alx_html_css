@@ -1,0 +1,251 @@
+/* Layout Guide*/
+
+    /*0---- html and body-----*/
+    /*1-----Header-----*/
+    /*2----Navbar----*/
+    /*3----Main----*/
+    /*4----Section----*/
+    /*5----footer-----*/
+
+
+    /*0----html and body*/
+
+    html body {
+        height: auto;
+        width: auto;
+        scroll-behavior: smooth;
+        font-family: ‘Aclonica’;
+        font-size: 22px;
+        
+    }
+    
+        /*1---------------------------------Header-------------------------------------*/
+    
+      
+    /* ============================Styling header top==========================*/
+    .header-background {
+        background-image: url(images/headphones_hero_1.jpg);
+        height: fit-content;
+        width: 100%;
+        background-size: 100%;
+        
+    }
+    .header-top {
+        display: flex;
+        justify-content: space-between;
+        
+    
+    }
+    .logo {
+        margin: 10px 0 0 40px;
+        
+    }
+    
+        /* ==========================Styling the navbar=============================*/
+    .nav  {
+        margin: 10px 60px 0 0;
+        padding: 25px;
+        width: 70vh;
+        display: flex;
+        justify-content: space-evenly;
+    
+    }
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        width: 200px;
+        
+      }
+      
+      li a {
+        display: flex;
+        color: white;
+        padding: 8px 16px;
+        text-decoration: none;
+      }
+      
+      /* Change the link color on hover */
+      li a:hover {
+        background-color: #FF4742;
+        color: white;
+        border-radius: 30px;
+      }
+      /*====================================Styling bottom of header======================*/
+    .header-bottom {
+        margin: auto;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .text-1 {
+        display: flex;
+        flex-direction: column;
+        color: white;
+        padding: auto;
+        margin : auto;
+        margin-top: 10px;
+        margin-bottom: 10vh;
+        justify-content: center;
+        text-align: center;
+        
+     
+    }
+    /*===========================================Styling button=============================*/
+    .button{
+    
+      background: #FF4742;
+      border: 1px solid #FF4742;
+      border-radius: 20px;
+      box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+      box-sizing: border-box;
+      color: #FFFFFF;
+      cursor: pointer;
+      display: inline-block;
+      font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+      font-size: 16px;
+      font-weight: 800;
+      line-height: 16px;
+      min-height: 40px;
+      outline: 0;
+      padding: 12px 14px;
+      text-align: center;
+      text-rendering: geometricprecision;
+      text-transform: none;
+      user-select: none;
+      -webkit-user-select: none;
+      touch-action: manipulation;
+      vertical-align: middle;
+    }
+    
+    .button:hover,
+    .button:active {
+      background-color: initial;
+      background-position: 0 0;
+      color: #FF4742;
+    }
+    .text-2 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100vh;
+        text-align: center;
+        margin: auto;
+        margin-top: 60px;
+        margin-bottom: 10vh;
+        color: white;
+        
+    }
+    
+    /*--------------------------------------What we do-----------------------------*/ 
+    
+    /*=================styling section body===============*/
+    .section-1-body{
+        margin-top: 30px;
+        margin-bottom: 20px;
+        height: fit-content;
+    }
+    .selection-1-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .section-1-header {
+        display: flex;
+        justify-content: center;
+        
+    }
+    .section-1-text {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100vh;
+        text-align: center;
+        margin: auto
+    }
+    /*==========continer with 4 block items======*/
+    .image-reviews {
+        display: flex;
+        justify-content: space-evenly;
+        text-align: center;
+        margin-top: 20vh;
+        margin-bottom: 10vh;
+    }
+    
+    .image-reviews img {
+        width: 10vh;
+        height: 10vh;
+        
+    }
+    
+/*-------------------------------------------Our results-------------------------------------*/
+/*================section body===============*/
+.section-2-body {
+    
+    background-image: url(images/headphones_hero_2.jpg);
+    height: 100%;
+}
+/*===============sction content=======*/
+.section-2-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+/*=====section header====*/
+.section-2-header {
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.section-2-text {
+    display: flex;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    width: 100vh;
+    margin: auto;
+    margin-bottom: 20vh;
+}
+
+.results {
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    margin-bottom: 7vh;
+}
+.results div {
+
+    position: relative;
+    
+}
+.results img {
+    width: 30vh;
+    height: 30vh;
+    
+}
+.inside-text {
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 30%;
+    bottom: 10%;
+    right: 90%;
+    left: 40%;
+    font-size: medium;
+    color: white; 
+}
+
+/*--------------------------------------Contaact section-------------------------------*/
+/*============Section body=========*/
+.section-3-body {
+    height: fit-content;
+    width: 100%;
+
+}
+/*Section containers*/
+.section-3-container {
+    display: flex;
+    flex-direction: column;
+}

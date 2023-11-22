@@ -135,7 +135,27 @@
         color: white;
         
     }
-    
+    /*mobile style*/
+    @media screen and (max-width : 668px) {
+        .header-background {
+            display: flex;
+            flex-flow: column wrap;
+            width: 667px;
+            text-align: center;
+            
+
+        }
+        .nav  {
+            margin: 10px 60px 0 0;
+            padding: 25px;
+            width: 70vh;
+            display: none;
+            
+            justify-content: space-evenly;
+        
+        }
+        
+    }
     /*--------------------------------------What we do-----------------------------*/ 
     
     /*=================styling section body===============*/

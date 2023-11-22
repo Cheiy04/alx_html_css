@@ -248,4 +248,47 @@
 .section-3-container {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    ;
+}
+.section-3-header {
+    margin: 30px;
+}
+.form {
+    margin-bottom: 90px;
+    border: 1px solid black;
+}
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 25px;
+    height: 40vh;
+    width: 70vh;
+    
+}
+ .name-contain {
+    margin: 25px;
+    border: none;
+    border-bottom: 1px solid black;
+    width: 60vh
+}
+.email-contain {
+    margin: 25px;
+    border: none;
+    border-bottom: 1px solid black;
+    width: 60vh
+}
+.text-contain {
+    margin: 25px;
+    border: none;
+    border-bottom: 1px solid black;
+    width: 60vh;
+    
+}
+::placeholder{ 
+    font-size: larger;
+    text-align: start;
+    font-weight: bolder;
 }

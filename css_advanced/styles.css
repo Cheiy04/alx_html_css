@@ -1,0 +1,400 @@
+/*------------------------------------------Layout Guide---------------------------------------------*/
+/*=========html and body tags=======*/
+/*===========Header=========*/
+/*Main and the 4-sections*/
+/*Footer*/
+
+/*=========html and body tags=======*/
+html body {
+    height: max-content;
+    width: 100%;
+    font-family: ‘Aclonica’;
+    font-size: 22px;
+}
+
+/*===========Header=========*/
+.header-container {
+    background-image: url(images/Object.png);
+    width: 100%;
+    height: 100%;
+}
+.header-body {
+    display: flex;
+    flex-direction: column;
+}
+.header-section {
+    display: flex;
+    justify-content: space-between;
+}
+.logo {
+    margin: 30px;
+    margin-left: 23vh;
+    margin-top: 50px;
+}
+ul {
+    list-style-type: none;
+    margin: 30px;
+    margin-left: 28vh;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 50vh;
+}
+li a {
+    display: flex;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color on hover */
+  li a:hover {
+    background-color: #7d4ee2;
+    color: white;
+    border-radius: 30px;
+  }
+  /*---Mobile layout---*/
+  /*---Tablet layout---*/
+
+/*=======================First section====================*/
+.section-1-body {
+    display: flex;
+    flex-direction: column;
+    
+}
+.block-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 70px;
+}
+.block-1 h1 {
+    color: white;
+    font-size: 90px;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+.block-1 .smiles {
+    display: flex;
+    justify-content: space-between;
+    width: 50vh;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+
+}
+/*----buttton-----*/
+.button{
+    
+    background:#7d4ee2;
+    border: 1px solid #7d4ee2;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 16px;
+    min-height: 40px;
+    outline: 0;
+    padding: 12px 14px;
+    text-align: center;
+    text-rendering: geometricprecision;
+    text-transform: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+  }
+  
+  .button:hover,
+  .button:active {
+    background-color: initial;
+    background-position: 0 0;
+    color: #2f2e34;
+  }
+    /*---Mobile layout---*/
+  /*---Tablet layout---*/
+
+  /*2nd part first section*/
+  .block-2 {
+    display: flex;
+    flex-direction: column;
+  }
+  .block-2 h2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 17vh;
+    color: white;
+    font-weight: 200;
+  }
+  .block-2 h2 span {
+    color: #46278a;
+    font-weight: bold;
+  }
+  .rating {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 14vh;
+  }
+  .rating .first  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+  }
+  .rating .second  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+  }
+  .rating .third {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+  }
+  .rating .fourth  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+  }
+  .rating p {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: small;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: lighter;
+    margin-top: 0;
+    width: 70px;
+
+  }
+  .rating h3 {
+    font-size: medium;
+    margin-bottom: 0;
+    font-weight: bolder;
+  }
+  .rating img {
+    width: 100px;
+    height: 100px;
+  }
+      /*---Mobile layout---*/
+  /*---Tablet layout---*/
+
+  /*--------------------------------------------Section Quotes-----------------------------------------------------*/
+.section-2-body {
+    background-color: #af6ae0;
+    width: 100%;
+    height: 100%;
+}
+.section-2-container {
+    display: flex;
+    justify-content: center;
+    padding: 70px 70px 70px 20px;
+    width: 130vh;
+    margin-left: 150px;
+    color: white;
+}
+.foto img {
+    width: 150px;
+    height: 150px ;
+}
+    /*---Mobile layout---*/
+  /*---Tablet layout---*/
+
+/*--------------------------------------------Section videos------------------------------------*/
+.section-3-body {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 15vh;
+}
+.section-3-body h1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 20vh;
+}
+.section-3-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+.first-block .img-1 {
+    position: relative;
+
+}
+.first-block .img-2 {
+    position: absolute;
+    left: 150px;
+    top: 1550px;
+    
+}
+.second-block .img-1 {
+    position: relative;
+
+}
+.second-block .img-2 {
+    position: absolute;
+    left: 480px;
+    top: 1550px;
+    
+}
+.third-block .img-1 {
+    position: relative;
+
+}
+.third-block .img-2 {
+    position: absolute;
+    left: 770px;
+    top: 1550px;
+    
+}
+.fourth-block .img-1 {
+    position: relative;
+
+}
+.fourth-block .img-2 {
+    position: absolute;
+    left: 1100px;
+    top: 1550px;
+}
+.section-3-container h2 {
+    font-size: 20px;
+    font-weight: bolder;
+}
+.section-3-container p {
+    color: #a382ea;
+    font-size: small;
+}
+.img-size img {
+    width: 30px;
+    
+}
+.img-size {
+    display: flex;
+    
+}
+.img-size h3 {
+    font-size: 13px;
+    color: #a382ea;
+}
+    /*---Mobile layout---*/
+  /*---Tablet layout---*/
+/*----------------------------------------------Membership section----------------------------------------*/
+.section-4-body {
+    background-color:#0d0420;
+    color: white;
+    height: 80vh;
+}
+.section-4-body h1 {
+    display: flex;
+    justify-content: center;
+    height:10vh;
+    padding: 60px;
+}
+.section-4-container {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.section-4-container h2 {
+    font-size: 20px;
+    font-weight: bolder;
+}
+.section-4-container p {
+    font-size: 15px;
+    
+}
+.but-po {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+    /*---Mobile layout---*/
+  /*---Tablet layout---*/
+
+/*-----------------------------------------FAQs section----------------------------------*/
+.section-5-body h1 {
+    display: flex;
+    justify-content: center;
+    margin: 90px;
+    font-size: 50px;
+    color: #0d0420;
+}
+.section-5-container {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: justify;
+    height: 90vh;
+}
+.contain-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 20px;
+}
+.contain-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 20px;
+    
+}
+.contain-1 h2{
+    color: #14023a;
+
+}
+.contain-2 h2{
+    color: #14023a;
+
+}
+.contain-1 p {
+    color: #8b5ded;
+}
+.contain-2 p {
+    color: #7d4ee2;
+}
+/*--------------------------------------------Footer--------------------------------------*/
+footer{
+    background-color: #071629;
+    color: #fff;
+    
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.footer-logo  {
+    margin: 25px;
+}
+
+.social-media {
+    width: 110px;
+    margin: 25px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+.social-icon img {
+    display: flex;
+    justify-content: space-between;
+    width: 30px;
+    height: 30px;
+}
+    /*---Mobile layout---*/
+  /*---Tablet layout---*/
+
+
+/*================================================Footer END======================================================*/

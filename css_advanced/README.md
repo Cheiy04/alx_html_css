@@ -1,4 +1,4 @@
-![A README PHOTOOO](images/white_logo.png)
+![A README PHOTOOO](images/logo.png)
 
 # Adding styling to the HTML advanced project.
 
